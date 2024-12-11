@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Task1 {
     public static void main(String[] args) {
-        String filePath = "resources/input.txt";
+        String filePath = "src/main/resources/input.txt";
         int totalDistance = calculateTotalDistance(filePath);
         System.out.println("Общее расстояние : " + totalDistance);
     }
